@@ -34,7 +34,7 @@
     border-radius: 60px;
     margin-right: -30px;
     outline: none;
-    border: 2px solid rgb(248,26,92);
+    border: 2px solid rgb(248, 26, 92);
     font-family: 'Rubik', sans-serif;
 }
 
@@ -43,7 +43,7 @@
     width: 40%;
     outline: none;
     border: none;
-    background-color: rgb(248,26,92);
+    background-color: rgb(248, 26, 92);
     color: white;
     font-weight: 700;
     border-radius: 60px;
@@ -68,8 +68,35 @@
     width: 35%;
     border: none;
     outline: none;
-    background-color: rgb(248,26,92);
+    background-color: rgb(248, 26, 92);
     color: white;
     font-weight: 700;
     border-radius: 60px;
+}
+
+.btnmain:hover {
+    background-color: rgb(209, 17, 75);
+    transition: 0.5s;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+.card:hover {
+    box-shadow: 1px 1px 26px -7px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px 1px 26px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 1px 26px -7px rgba(0, 0, 0, 0.75);
+    transition: 0.5s;
+}
+
+.apple {
+    background-color: black;
+    background: url("https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80") no-repeat;
+    background-size: cover;
+}
+
+.apple h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 3rem;
 }
