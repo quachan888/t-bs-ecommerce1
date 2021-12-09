@@ -21,7 +21,7 @@
 }
 
 .nav-link:hover {
-    color: black;
+    color: rgb(248, 26, 92);
 }
 
 .search {
@@ -88,7 +88,7 @@ h1 {
 
 .apple {
     background-color: black;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url("https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80") no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url("https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80") no-repeat;
     background-size: cover;
     height: 60vh;
     witdh: 100%;
@@ -155,4 +155,10 @@ h1 {
 .news h5 {
     font-weight: 700;
     color: rgb(248, 26, 92);
+}
+
+.togglericon:hover {
+    color: rgb(248, 26, 92);
+    transform: rotate(360deg);
+    transition: transform 0.7s ease-in-out 0s;
 }
